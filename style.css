@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@100;300;400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background:  linear-gradient(rgba(74, 222, 222,0.8),rgba(120, 127, 246,0.8)), url(/bdaybg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+.container{
+  max-width: 60vw;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  font-family: 'Playball', cursive;
+  font-size: 2rem;
+    text-align: center;
+}
+
+input{
+    width: 70%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    font-size: 1.2rem;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    margin: 0.5rem auto;
+    border: 1px solid #1f2f98;
+    color: #1f2f98;
+  }
+   
+  .btn{
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border: 1px solid #1f2f98;
+    background: #1f2f98;
+    color: #eeeeee;
+    border-radius: 25px;
+    transition: all .3s;
+  }
+  .btn:hover{
+    transform: scale(1.1);
+  }
+  .output{
+      background: rgba(31, 47, 152,0.2);
+      padding: 1rem;
+      border-radius: 10px;
+      margin: 1rem auto;
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: center;
+  }
+
+  #nextPalindrome, #previousPlaindrome{
+    background: rgb(120, 127, 246);
+    margin: 1rem 0;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
